@@ -13,8 +13,6 @@ library("rinform")
 library(reshape2)
 library("patchwork")
 
-setwd("C:/Users/David Africa/Masters Code Stuff/Horses with JP")
-
 rename_columns <- function(df) {
   col_names <- names(df)
   new_col_names <- col_names

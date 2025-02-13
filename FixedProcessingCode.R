@@ -6,9 +6,6 @@ library(RTransferEntropy)
 library(igraph)
 library(cluster)
 
-# Set working directory
-setwd("C:/Users/David Africa/Masters Code Stuff/Horses with JP")
-
 # Function to rename columns for consistent structure
 rename_columns <- function(df) {
   col_names <- names(df)
